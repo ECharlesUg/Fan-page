@@ -1,0 +1,22 @@
+/*
+This will style all elements to have line height
+of 140% of the font size of the element.
+ */
+* {
+  margin: 0;
+  line-height: 140%;
+}
+
+/* 
+This will styl the html elemet, also known as the root element
+to have a dafault font-size of 62.5%
+of the default font size for the browser.
+*/
+html {
+  margin: 0;
+  font-size: 62.5%;
+}
+
+main {
+  margin: 0.5%;
+}

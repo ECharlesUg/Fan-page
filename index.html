@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic Rock Fan Page</title>
+  </head>
+  <body>
+    <!--
+    The three semantic tags that mus be on every page you create
+    are header, main, footer
+
+    semantic tags are containers. they need actual html elements inside them.
+    just pooting text inside a foorter without a p tag or h2 tag is not aceptable
+  -->
+    <header>
+      <h1>Classic Rock Fan Page</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="the-beatles.html">The Beatles</a></li>
+          <li><a href="eric-clapton.html">Eric Clapton</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <!-- Inside the semantic tags, we can use dis to further group content
+        (Containers inside container)-->
+        <div>
+          <!--Never add a span to wrap around all the content of am element-->
+          <h2>What is Classic Rock?</h2>
+          <p>
+            <span>Classic rock</span> is a US radio format which developed from
+            the album-oriented rock (AOR) format in the early 1980s.primarily
+            focusing on commercially successful blues rock and hard rock
+            popularized in the 1970s AOR format.[1] The radio format became
+            increasingly popular with the baby boomer demographic by the end of
+            the 1990s.Although classic rock has mostly appealed to adult
+            listeners, music associated with this format received more exposure
+            with younger listeners with the presence of the Internet and digital
+            downloading.[4] Some classic rock stations also play a limited
+            number of current releases which are stylistically consistent with
+            the station's sound, or by heritage acts which are still active and
+            producing new music.[5] Conceptually, classic rock has been analyzed
+            by academics as an effort by critics, media, and music
+            establishments to canonize rock music and commodify 1960s Western
+            culture for audiences living in a post-baby boomer economy. The
+            music predominantly selected for the format has been identified as
+            commercially successful songs by white male acts from the
+            Anglosphere, expressing values of Romanticism, self-aggrandizement,
+            and politically undemanding ideologies. It has been associated with
+            the album era (1960s–2000s), particularly the period's early
+            pop/rock music.
+
+            <a href="https://en.wikipedia.org/wiki/Classic_rock" target="_blank"
+              >- Wikipedia</a
+            >
+          </p>
+        </div>
+        <figure>
+          <figcaption>
+            The image below is an image of influential classics (starting from
+            the left): Different musicians from
+            <span class="musician-name">classic rock.</span>
+          </figcaption>
+          <img
+            src="https://townsquare.media/site/295/files/2021/06/attachment-100Artists.jpg?w=980&q=75"
+            alt="an image of four influential classic rock musicians. The 
+            image split into four vertical sections. The first
+            section is of kieth richards from the rolling stones. the 
+            second section is of steven tyler from aerosmith. the thirs 
+            section is of angus oung from ac/dc, the fourth section is
+            of jimmy page from led zeppelin"
+          />
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <!--This is the correct way to put content inside a container
+    This si the correct way to use a text decoration tag-->
+      <p>&#169; Ella C-U</p>
+    </footer>
+  </body>
+</html>
