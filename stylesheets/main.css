@@ -1,0 +1,117 @@
+/*
+  This will style all elements to have no space
+  around the edges of the element and have a line spacing
+  of 140% of the font size of the element.
+ */
+* {
+  margin: 0;
+  line-height: 140%;
+}
+
+/* 
+  This will style the html elemet, also known as the root element
+  to have a dafault font-size of 62.5%
+  of the default font size for the browser.
+*/
+html {
+  margin: 0;
+  font-size: 62.5%;
+}
+
+/* This will style all body elelemts and all elements that inherit from the body styling to change their forn tisze
+to 1.8 times of the size of the rootws elements font size.
+This styles the background coklor for the element to be #242323, which wll
+bw th emain background color for the entire website  and changes the font text to be #fdfdfd
+and to use the arial font before using the helveltica font, an dif neithe rfont is availabile 
+the browser will use the default sans-serif font*/
+body {
+  background-color: #242323;
+  color: #fdfdfd;
+
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This styles the nav to have  abackground color of
+#800808 , which is dark red */
+nav {
+  background-color: #800808;
+}
+
+/* This styles the ul inside the nav to have
+no space on the inside of the element and to have no
+bullet points for list items */
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* This sty;es all list item elements in the nav to display 
+beside each other, but also allow for changes to their dimension, and add 5px
+of space on the top and the bottom of the list items. */
+nav li {
+  margin: 5px 0;
+  display: inline-block;
+}
+
+/* this styles all anchors inside the nav to display beside each other,
+ but also allow fr chnages to their domnsions
+for example, ist allows us to change the height of the anchirs so that 
+they are 100% of the sie of their parent element, the
+list items in the nav.
+this styilng alos add 15px of space on the inside of the element just 
+above and below the content ad 25px on the inside of the elelemnt just tp the left
+and the right of the contebt.
+This styling makes the background color of the anchors to be dark gray 
+and font color to be an off white with a text decoration of non */
+nav a {
+  display: inline-block;
+  height: 95%;
+
+  padding: 15px 25px;
+
+  background-color: #121212;
+  color: #ededed;
+
+  text-decoration: none;
+}
+
+/* This styles the anchor elelemtn in the nav so that when a user hovers
+on or tabs to the links, the color of the anchor swap out. This means
+the background color will be an off-white and the font color will be a dark grey */
+nav a:hover,
+nav a:focus {
+  background-color: #ededed;
+  color: #121212;
+}
+
+/* Thia styles the anchor elelemtn in he nav so that when a user clicks and holds on the anchor, 
+the content becomes heavily bolded. */
+nav a:active {
+  font-weight: bolder;
+}
+
+/*
+  This stles the section that holds all of my important innformation
+  to have m=no spacing on the top
+  and bottom of the section and spacing that is equal to 5% of the 
+  width of the browser window n the left and right sides of the section.
+*/
+main {
+  margin: 0.5%;
+}
+
+/* This styles all eleemtns with a span elements to have  font-weight of bold inside the element*/
+span {
+  font-weight: bold;
+}
+
+/* This styles the eleemtn with and ID of definition to underline all text inside the element. */
+#definition {
+  text-decoration: underline;
+}
+
+/* This styles all eleement with a class of musician-name to italacize the text iside the element, */
+.musician-name {
+  font-style: italic;
+}
