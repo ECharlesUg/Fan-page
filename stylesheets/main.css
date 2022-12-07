@@ -91,6 +91,21 @@ nav a:active {
   font-weight: bolder;
 }
 
+/* This styles the main heading odf the websites to add space to the 
+the top of the eading of 30px, vchsnges the font color topastel
+bright red and sets font size to 4.8 times the size
+of the root element , and aigns the text to center */
+h1 {
+  margin-top: 50px 0px;
+  padding: 20px 0px;
+
+  background-color: #ededed;
+  color: #f55959;
+
+  font-size: 4.8rem;
+  text-align: center;
+  text-shadow: #121212 5px 0px;
+}
 /*
   This stles the section that holds all of my important innformation
   to have m=no spacing on the top
@@ -101,6 +116,30 @@ main {
   margin: 0.5%;
 }
 
+section div {
+  float: left;
+
+  width: 40%;
+
+  display: inline-block;
+  margin-right: 2.5%;
+  padding: 1.5% 3%;
+  background-color: #ededed;
+  color: #121212;
+}
+
+section figure {
+  display: inline-block;
+  width: 50%;
+}
+figure img {
+  width: 100%;
+}
+figcaption {
+  margin-bottom: 20px;
+
+  text-align: center;
+}
 /* This styles all eleemtns with a span elements to have  font-weight of bold inside the element*/
 span {
   font-weight: bold;
@@ -114,4 +153,13 @@ span {
 /* This styles all eleement with a class of musician-name to italacize the text iside the element, */
 .musician-name {
   font-style: italic;
+}
+footer {
+  position: absolute;
+  bottom: 10px;
+
+  width: 100%;
+
+  margin-top: 50px;
+  text-align: center;
 }
